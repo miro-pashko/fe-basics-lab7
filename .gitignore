@@ -1,0 +1,29 @@
+# Залежності
+node_modules
+
+# Результат збірки
+dist
+dist-ssr
+
+# Логи
+logs
+*.log
+npm-debug.log*
+
+# Змінні середовища (можуть містити ключі й паролі)
+.env
+.env.*
+!.env.example
+
+# Кеш
+.vite
+*.local
+
+# Редактори
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Системні файли
+.DS_Store
+Thumbs.db
